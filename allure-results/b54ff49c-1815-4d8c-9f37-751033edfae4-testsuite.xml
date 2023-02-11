@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676099961743' stop='1676099961928'>
+    <name>practice page: amazon website</name>
+    <title>practice page: amazon website</title>
+    <test-cases>
+        <test-case start='1676099961744' status='passed' stop='1676099961747'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676099961747' status='passed' stop='1676099961919'>
+            <name>Given I am on the practice page "https://www.amazon.com/"</name>
+            <title>Given I am on the practice page "https://www.amazon.com/"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps>
+                <step start='1676099961754' status='undefined'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0b7bc668-0fc5-452e-b7d2-cb9ae7b9e886-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676099961919' status='broken' stop='1676099961921'>
+            <name>When click on amazon logo "//a[@id='nav-logo-sprites']" and validate</name>
+            <title>When click on amazon logo "//a[@id='nav-logo-sprites']" and validate</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "click on amazon logo "//a[@id='nav-logo-sprites']" and validate" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "click on amazon logo "//a[@id='nav-logo-sprites']" and validate" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\user\Desktop\wbio\features\validate.feature):1:1
+                	at Scenario(amazon website):2:5
+                	at Step(click on amazon logo "//a[@id='nav-logo-sprites']" and validate):4:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1676099961922' status='broken' stop='1676099961922'>
+            <name>Then click on all "//a[@id='nav-hamburger-menu']"</name>
+            <title>Then click on all "//a[@id='nav-hamburger-menu']"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "click on all "//a[@id='nav-hamburger-menu']"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "click on all "//a[@id='nav-hamburger-menu']"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\user\Desktop\wbio\features\validate.feature):1:1
+                	at Scenario(amazon website):2:5
+                	at Step(click on all "//a[@id='nav-hamburger-menu']"):5:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1676099961922' status='passed' stop='1676099961925'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
