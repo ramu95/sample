@@ -1,10 +1,12 @@
 import { Given, Then, When } from "@wdio/cucumber-framework";
 
 Given(/^I am on the practice page \"([^\"]*)\"$/, function (url) {
-    
+    browser.deleteAllCookies()
     browser.url(url)
-    browser.maximizeWindow
+    browser.maximizeWindow()
+
 });
+
 
 When(/^click on amazon logo and validate$/, async function () {
     const elementRef = await browser.findElement('xpath', "//a[@id='nav-logo-sprites']")
